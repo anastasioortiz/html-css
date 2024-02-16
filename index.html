@@ -1,32 +1,60 @@
-  <!-- TO RUN IN BROWSER:
+ <!-- TO RUN IN BROWSER:
     1. Install vscode extension Name: open in `browser open-in-browser` by TechER
     2. Right click html file and either run in default browser or another browser
   -->
 
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML/CSS Studio</title>
-    <!-- import CSS styles -->
-    <link rel="stylesheet" href="styles.css" /> 
-  </head>
-
-  <!-- page content goes into <body> -->
-  <body>
-    <div id="logoBar">
-      <h1>Welcome to 100 Acre Wood!</h1>
-      <img id="siteLogo" alt="Pooh-bear site logo" src="./assets/Header.png"/>
-      <h3>We're glad you're here :D</h3>
-    </div>
-    <hr/>
-    <div id="staffGallery">
-      <img class="galleryImage" src="./assets/Eeyore-Eh.png"/>
-      <img class="galleryImage" src="./assets/Eeyore-Zz.png"/>
-      <img class="galleryImage" src="./assets/Kanga-Roo.png"/>
-      <img class="galleryImage" src="./assets/Owl-Phone.png"/>
-    </div>
-  </body>
-
-</html>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>HTML/CSS Studio</title>
+      <!-- import CSS styles -->
+      <link rel="stylesheet" href="styles.css" /> 
+    </head>
+  
+    <!-- page content goes into <body> -->
+    <body>
+      <div id="logoBar">
+        <h1>Welcome to 100 Acre Wood!</h1>
+        <img id="siteLogo" alt="Pooh-bear site logo" src="./assets/Header.png"/>
+        <h3>We're glad you're here :D</h3>
+      </div>
+      <hr/>
+      <div id="staffGallery">
+        <div class="card">
+          <img class="galleryImage" alt="Upsidedown Eeyore" src="./assets/Eeyore-Eh.png"/>
+          <p class = "name">Eeyore-Eh
+        </div>
+        <div class="card">
+          <img class="galleryImage" alt="Kangaroo with a baby" src="./assets/Kanga-Roo.png"/>
+          <p class = "name">Kanga-Roo
+        </div>
+        <div class="card">
+          <img class="galleryImage" alt="Tigger being Tigger" src="./assets/Tigger-Energy.png"/>
+          <p class = "name">Tigger-Energy
+        </div>
+        <div class="card">
+          <img class="galleryImage" alt="Piglet picking a flower" src="./assets/Piglet-Flower.png"/>
+          <p class = "name">Piglet-Flower
+        </div>
+        <div class="card">
+          <img class="galleryImage" alt="Owl singing" src="./assets/Owl-Music.png"/>
+          <p class = "name">Owl-Music
+        </div>
+        <div class="card">
+          <img class="galleryImage" alt="Winnie being the Pooh" src="./assets/Pooh-Jess.png"/>
+          <p class = "name">Pooh-Jess
+        </div>
+        <div class="card">
+          <img class="galleryImage" alt="Roo-bee being a kid " src="./assets/Roo-Bee.png"/>
+          <p class = "name">Roo-Bee
+        </div>
+        <div class="card">
+          <img class="galleryImage" alt="a rabbit with a carrot" src="./assets/Rabbit-Carrot.png"/>
+          <p class = "name">Rabbit-Carrot
+        </div>
+      </div>
+    </body>
+  
+  </html>
